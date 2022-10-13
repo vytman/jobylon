@@ -18,7 +18,10 @@
 		"baseUrl": "src/",
 		"paths": {
 			"@components": ["components"],
-			"@screens": ["screens"]
+			"@screens": ["screens"],
+			"@services": ["services"],
+			"@constants": ["constants"],
+			"@helpers": ["helpers"]
 		}
 	},
 	"include": ["src"]

@@ -303,6 +303,9 @@ module.exports = function (webpackEnv) {
 				...(modules.webpackAliases || {}),
 				'@screens': path.resolve(__dirname, '../src/screens'),
 				'@components': path.resolve(__dirname, '../src/components'),
+				'@services': path.resolve(__dirname, '../src/services'),
+				'@constants': path.resolve(__dirname, '../src/constants'),
+				'@helpers': path.resolve(__dirname, '../src/helpers'),
 			},
 			plugins: [
 				// Prevents users from importing files from outside of src/ (or node_modules/).

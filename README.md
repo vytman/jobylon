@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Jobylon - A simple job-list app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is what we have in mind for the test. It should in the end show us a little more about how you solve problems, how you structure your code and what you care about when developing.
 
-## Available Scripts
+Try showcasing the things you think are important in a project and think about your project architecture as if it was a larger project. If there is not enough time, please take notes during your development and submit them on the feedback form together with your code.
 
-In the project directory, you can run:
+The use-case is very simple:
 
-### `npm start`
+    1. User types a URL in the browser
+    2. User is presented with a list of jobs
+    3. The user can interact with the jobs in the list and follow a link to the actual ads.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The site in question where you should get the jobs from is one of the following:
+XML - https://feed.jobylon.com/feeds/7d7e6fd12c614aa5af3624b06f7a74b8/
+JSON - https://feed.jobylon.com/feeds/7d7e6fd12c614aa5af3624b06f7a74b8/?format=json
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Non functional requirements:
+_ Use React, and create-react-app as a basis to complete your assignment
+_ It should work in a modern browser (Chrome or Firefox)
+_ Either the app has to be hosted somewhere online or you have to write some instructions on how to get it up and running on Mac/Linux
+_ I also need to get access to all the source code, be it on Github, Bitbucket or just a tar.gz...
 
-### `npm test`
+Please motivate your choices (UX and Code) on the feedback form where you submit your code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+BONUS:
+If you want to impress, feel free to put a special touch on the UI.
 
-### `npm run build`
+If you have any questions feel free to reach out at any time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    0. Clone or download project
+    1. npm i
+    2. npm start
+    3. ???
+    4. profit
